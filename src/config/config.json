@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "spdp@sd11",
+    "database": "wac_db",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "spdp@sd11",
+    "database": "wac_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "spdp@sd11",
+    "database": "wac_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "saltRounds": 2,
+  "jwtSecret": "yo-its-a-secret",
+  "tokenExpireTime": "6h"
+}
